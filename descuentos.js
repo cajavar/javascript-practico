@@ -19,6 +19,6 @@ function onClickButtonPriceDiscount() {
 
     const precioConDescuento = calcularPrecioConDescuento(priceValue, discountValue);
 
-    const resultPrice = document.getElementById("ResultPrice");
-    resultPrice.innerText = "El precio con descuento es $" + precioConDescuento;
+    const resultPrice = document.getElementById("ResultPrice").innerText = "El precio con descuento es $" + precioConDescuento;
+    //resultPrice.innerText = "El precio con descuento es $" + precioConDescuento;
 }
